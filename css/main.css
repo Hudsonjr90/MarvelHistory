@@ -1,0 +1,44 @@
+.card {
+    margin: 20px;   
+}
+
+
+.row {
+    margin:auto;
+    max-width: 1000px;
+}
+
+body {
+    background-image: url("../marvelBackground.gif");
+    background-size: auto;
+}
+
+h1 {
+    margin:auto;
+    max-width: 950px;
+    color: rgb(255, 255, 255);
+}
+
+
+.buttonClass {
+    font-size:15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:160px;
+    height:70px;
+    border-width:0px;
+    color:#ffffff;
+    border-color:#000000;
+    font-weight:bold;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    box-shadow:inset 1px 1px 0px 0px #000000;
+    text-shadow:inset 0px 1px 0px #000000;
+    background:linear-gradient(#000000, #000000);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#000000, #2c2b2b);
+  }
+      
