@@ -1,0 +1,11 @@
+{
+  "name": "marvelhistory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parseData.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Hudson Kennedy",
+  "license": "ISC"
+}
