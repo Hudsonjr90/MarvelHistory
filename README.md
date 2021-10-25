@@ -12,7 +12,7 @@
             os métodos usados para o projeto:</br>
 			GET - /v1/public/characters </br>
 			GET - /V1/public/characters/{characterId}/stories</br>
-			abaixo temos mais métodos API a serem utilizados.
+			mais métodos API a serem utilizados.
 			<a href="https://developer.marvel.com/docs">Marvel API</a>
        	 	</h2>
         </sub>
