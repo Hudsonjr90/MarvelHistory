@@ -13,7 +13,6 @@
 	
 			GET - /v1/public/characters </br>
 			GET - /V1/public/characters/{characterId}/stories</br>
-			
 			mais métodos API a serem utilizados.
 			<a href="https://developer.marvel.com/docs">Marvel API</a>
        	 	</h2>
