@@ -1,5 +1,5 @@
-const privateKey = "7cd3684824a067744989aa33c44a0fefb24a8740";
-const publicKey = "22e9bab7b462ebbd01fee470d5c30192";
+const privateKey = "06197e8205faddcaa667aec214b74e157e7d6f16";
+const publicKey = "e6dc75d60924602e6ef1e7129df02c66";
 const maxCharacters = 1500;
 
 
