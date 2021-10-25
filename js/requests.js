@@ -1,5 +1,5 @@
-const privateKey = "06197e8205faddcaa667aec214b74e157e7d6f16";
-const publicKey = "e6dc75d60924602e6ef1e7129df02c66";
+const privateKey = "7cd3684824a067744989aa33c44a0fefb24a8740";
+const publicKey = "22e9bab7b462ebbd01fee470d5c30192";
 const maxCharacters = 1500;
 
 
@@ -23,7 +23,7 @@ function getCharacterList() {
     const hash = createHash(timeStamp);
 
     
-    const urlAPI = "https://gateway.marvel.com:443/v1/public/characters?apikey=e6dc75d60924602e6ef1e7129df02c66"+offset+"&ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
+    const urlAPI = "http://gateway.marvel.com/v1/public/characters?limit=9&offset="+offset+"&ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
 
     // sla mas funcionou
     const xhttp = new XMLHttpRequest();
@@ -45,7 +45,7 @@ function showHistorys(elemento) {
     const timeStamp = Date.now().toString();//tempo agora
     const hash = createHash(timeStamp);//hash para validar a requisição
 
-    const urlAPI = "https://gateway.marvel.com:443/v1/public/characters?apikey=e6dc75d60924602e6ef1e7129df02c66"+codigo+"/stories?ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
+    const urlAPI = "https://gateway.marvel.com:443/v1/public/characters/"+codigo+"/stories?ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
     console.log(urlAPI);
     
     // sla mas funcionou
