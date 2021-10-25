@@ -45,7 +45,7 @@ function showHistorys(elemento) {
     const timeStamp = Date.now().toString();//tempo agora
     const hash = createHash(timeStamp);//hash para validar a requisição
 
-    const urlAPI = "https://gateway.marvel.com:443/v1/public/characters/"+codigo+"/stories?ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
+    const urlAPI = "https://gateway.marvel.com/v1/public/characters/"+codigo+"/stories?ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
     console.log(urlAPI);
     
     // sla mas funcionou
