@@ -23,7 +23,7 @@ function getCharacterList() {
     const hash = createHash(timeStamp);
 
     
-    const urlAPI = "http://gateway.marvel.com/v1/public/characters?limit=9&offset="+offset+"&ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
+    const urlAPI = "https://gateway.marvel.com:443/v1/public/characters?apikey=e6dc75d60924602e6ef1e7129df02c66"+offset+"&ts="+timeStamp+"&apikey="+publicKey+"&hash="+hash;
 
     // sla mas funcionou
     const xhttp = new XMLHttpRequest();
