@@ -9,14 +9,18 @@
 }
 
 body {
-    background-image: url("../marvelBackground.gif");
-    background-size: auto;
+    background-image: url("../marvelBackground.jpeg");
+    background-size:contain;
 }
 
 h1 {
     margin:auto;
     max-width: 950px;
     color: rgb(255, 255, 255);
+    border-color: #000000;
+    box-shadow:inset 1px 1px 0px 0px #000000;
+    text-shadow:inset 0px 1px 0px #000000;
+    background:linear-gradient(#000000, #000000);
 }
 
 
